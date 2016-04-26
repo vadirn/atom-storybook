@@ -7,7 +7,7 @@
   "activationCommands": {
     "atom-workspace": "atom-storybook:toggle"
   },
-  "repository": "https://github.com/atom/atom-storybook",
+  "repository": "https://github.com/vadirn/atom-storybook",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
