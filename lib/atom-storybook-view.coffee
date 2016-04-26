@@ -1,15 +1,10 @@
-module.exports =
-class AtomStorybookView
-  constructor: (serializedState) ->
-    # Create root element
-    @element = document.createElement('div')
-    @element.classList.add('atom-storybook')
+{View} = require '../node_modules/atom-space-pen-views'
 
-    # Create message element
-    message = document.createElement('div')
-    message.textContent = "The AtomStorybook package is Alive! It's ALIVE!"
-    message.classList.add('message')
-    @element.appendChild(message)
+module.exports =
+class AtomStorybookView extends View
+  @content: ->
+    @div class:'styleguide padded pane-item native-key-bindings' , =>
+      @div class: 'atom-storybook'
 
   # Returns an object that can be retrieved when package is activated
   serialize: ->

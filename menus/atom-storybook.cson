@@ -1,20 +1,16 @@
-# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
-'context-menu':
-  'atom-text-editor': [
-    {
-      'label': 'Toggle atom-storybook'
-      'command': 'atom-storybook:toggle'
-    }
-  ]
 'menu': [
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'atom-storybook'
+      'label': 'Atom Storybook'
       'submenu': [
         {
-          'label': 'Toggle'
+          'label': 'Toggle window'
           'command': 'atom-storybook:toggle'
+        },
+        {
+          'label': 'Toggle size'
+          'command': 'atom-storybook:enlarge'
         }
       ]
     ]

@@ -1,0 +1,18 @@
+{
+  "extends": "airbnb",
+  "globals": {
+    "atom": false,
+    "document": false,
+    "window": false
+  },
+  "rules": {
+    # Single-quotes for the win!
+    "quotes": [1, "single"],
+    "jsx-quotes": ["error", "prefer-single"],
+    # Temporary disable react components to be stateless
+    "react/prefer-es6-class": 0,
+    "react/prefer-stateless-function": 0,
+    # Don't check propTypes
+    "react/prop-types": 0
+  }
+}
