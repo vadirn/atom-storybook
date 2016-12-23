@@ -8,10 +8,6 @@
           'label': 'Toggle window'
           'command': 'atom-storybook:toggle'
         },
-        {
-          'label': 'Toggle size'
-          'command': 'atom-storybook:enlarge'
-        }
       ]
     ]
   }
