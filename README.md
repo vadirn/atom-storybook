@@ -1,8 +1,8 @@
 # atom-storybook
 
-Atom plugin for @kadira/storybook
+Atom plugin for Storybook
 
-Read more about storybook here: https://github.com/kadirahq/react-storybook
+Read more about storybook here: https://storybook.js.org https://github.com/storybooks/storybook 
 
 In order to run show the storybook inside atom:
 - launch storybook as usual, then go to Packages > Atom Storybook > Toggle
